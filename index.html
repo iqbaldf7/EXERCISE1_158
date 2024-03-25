@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Jadwal Film</title>
+    <style>
+        body {
+            border: 5px solid pink; /* Menetapkan border pada body dengan warna pink */
+            padding: 20px; /* Menambahkan bingkai (padding) di sekitar border */
+            font-family: Arial, sans-serif; /* Mengatur jenis font */
+        }
+        h1 {
+            color: rgb(105, 72, 23); /* Mengatur warna teks untuk judul */
+        }
+        img {
+            border: 3px solid black; /* Menambahkan border hitam pada gambar */
+            padding: 10px; /* Menambahkan bingkai (padding) di sekitar gambar */
+            max-width: 100%; /* Mengatur lebar maksimum gambar */
+            height: auto; /* Mengatur agar gambar tetap proporsional */
+        }
+        table {
+            border-collapse: collapse; /* Menggabungkan batas sel pada tabel */
+            width: 100%; /* Lebar tabel 100% dari lebar kontainer */
+            margin-bottom: 20px; /* Menambahkan ruang di bawah tabel */
+        }
+        th, td {
+            border: 1px solid black; /* Menambahkan border pada sel tabel */
+            padding: 8px; /* Menambahkan ruang di dalam sel tabel */
+            text-align: left; /* Mengatur teks menjadi rata kiri */
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Mengganti warna latar belakang setiap baris genap */
+        }
+        .button-container {
+            text-align: center; /* Mengatur posisi teks tombol menjadi di tengah */
+        }
+        button {
+            padding: 10px 20px; /* Menambahkan ruang di dalam tombol */
+            background-color: #4CAF50; /* Warna latar belakang tombol */
+            color: white; /* Warna teks tombol */
+            border: none; /* Menghapus border tombol */
+            cursor: pointer; /* Mengubah kursor saat mengarah ke tombol */
+            border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+        }
+        /* Efek hover pada tombol */
+        button:hover {
+            background-color: #45a049; /* Warna latar belakang tombol saat dihover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Jadwal Film Sedang Tayang</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoPZ_vEsQvOdr4V-aDMvh8d1MW0moR1XfTieIDHpIvN4-RVAjuVhl-VxONpXY_1KWvy-A&usqp=CAU" alt="logo">
+    <p>Di bawah ini adalah daftar jadwal film yang sedang tayang di bioskop CGV Kami:</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama Film</th>
+                <th>Jadwal Tayang</th>
+                <th>Harga Tiket</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Spider-Man: No Way Home</td>
+                <td>Senin - Rabu: 13:00, 16:00, 19:00<br>Jumat - Minggu: 12:00, 15:00, 18:00, 21:00</td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td>The Batman</td>
+                <td>Senin - Rabu: 14:00, 17:00, 20:00<br>Jumat - Minggu: 13:00, 16:00, 19:00, 22:00</td>
+                <td>Rp 55.000</td>
+            </tr>
+            <tr>
+                <td>Black Panther: Wakanda Forever</td>
+                <td>Senin - Rabu: 15:00, 18:00, 21:00<br>Jumat - Minggu: 14:00, 17:00, 20:00, 23:00</td>
+                <td>Rp 60.000</td>
+            </tr>
+            <tr>
+                <td>The Matrix Resurrections</td>
+                <td>Senin - Rabu: 14:00, 17:00, 20:00<br>Jumat - Minggu: 13:00, 16:00, 19:00, 22:00</td>
+                <td>Rp 55.000</td>
+            </tr>
+            <tr>
+                <td>Avatar 2</td>
+                <td>Senin - Rabu: 13:00, 16:00, 19:00<br>Jumat - Minggu: 12:00, 15:00, 18:00, 21:00</td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td>Fast & Furious 10</td>
+                <td>Senin - Rabu: 15:00, 18:00, 21:00<br>Jumat - Minggu: 14:00, 17:00, 20:00, 23:00</td>
+                <td>Rp 60.000</td>
+
+            </tr>
+          </tr>
+      
+           <td>The Exorcist: Believer</td>
+          <td>Senin - Rabu: 16:00, 18:00, 21:00<br>Jumat - Minggu: 01:00, 17:00, 20:00, 23:00</td>
+          <td>Rp 60.000</td>
+        </tbody>
+    </table>
+
+    <div class="button-container">
+        <button>Lihat Semua Jadwal Film</button

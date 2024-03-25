@@ -1,0 +1,45 @@
+/* style.css */
+
+body {
+    border: 5px solid pink; /* Menetapkan border pada body dengan warna pink */
+    padding: 20px; /* Menambahkan bingkai (padding) di sekitar border */
+}
+
+h3 {
+    color: rgb(105, 72, 23);
+}
+
+img {
+    border: 3px solid black; /* Menambahkan border hitam pada gambar */
+    padding: 10px; /* Menambahkan bingkai (padding) di sekitar gambar */
+}
+
+table {
+    border-collapse: collapse; /* Menggabungkan batas sel pada tabel */
+    width: 100%; /* Lebar tabel 100% dari lebar kontainer */
+}
+
+th, td {
+    border: 1px solid black; /* Menambahkan border pada sel tabel */
+    padding: 8px; /* Menambahkan ruang di dalam sel tabel */
+    text-align: left; /* Mengatur teks menjadi rata kiri */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Mengganti warna latar belakang setiap baris genap */
+}
+
+/* Tombol */
+button {
+    padding: 10px 20px; /* Menambahkan ruang di dalam tombol */
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    cursor: pointer; /* Mengubah kursor saat mengarah ke tombol */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+}
+
+/* Efek hover pada tombol */
+button:hover {
+    background-color: #45a049; /* Warna latar belakang tombol saat dihover */
+}
